@@ -24,7 +24,7 @@ function Albums() {
     return (
         <ul className="album-list"> 
         { albumsOfUser.map((album) => (
-                <Album album={album}/>
+                <Album album={album} key={album.id}/>
             ))}
         </ul>
     )

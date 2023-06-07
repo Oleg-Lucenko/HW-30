@@ -28,8 +28,8 @@ function AlbumPhoto () {
 
         <ul className="album-img">
             {photosOfTheAlbum.map((photo) => (
-                <li>
-                    <img src={photo.thumbnailUrl}  />
+                <li key={photo.id}>
+                    <img src={photo.thumbnailUrl} />
                 </li>
             ))}
         </ul>

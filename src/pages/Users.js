@@ -1,6 +1,5 @@
 import {useEffect} from 'react';
 import {useState} from 'react';
-import {NavLink} from 'react-router-dom';
 import User from './components/User'
 import './pages.css';
 
@@ -21,7 +20,7 @@ function Users() {
     return (
         <ul className="users-list">
         {users.map((user) => (
-          <User user={user}/>
+          <User user={user} key={user.id}/>
 
         ))}
     </ul>
