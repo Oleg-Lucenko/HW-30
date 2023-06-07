@@ -14,13 +14,13 @@ const router = createBrowserRouter ([
     element: <Root />,
     children: [  
       {
-        path: `/`, element: <Users />
+        path: `/HW-30`, element: <Users />
       }, 
       {
-        path: `/user/:userId`, element: <Albums />
+        path: `/HW-30/user/:userId`, element: <Albums />
       },
       {
-        path: `/album/:albumId`, element: <AlbumPhoto />
+        path: `/HW-30/album/:albumId`, element: <AlbumPhoto />
       }
     ]
   }
