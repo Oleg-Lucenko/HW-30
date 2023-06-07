@@ -1,0 +1,31 @@
+
+.user-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 5px;
+}
+
+.general-info {
+    flex-basis: 210px;
+}
+
+.address {
+    flex-basis: 212px;
+}
+
+.company-info {
+    flex-basis: 300px;
+}
+
+.album-link {
+    flex-basis: 100px;
+}
+
+.phone {
+    flex-basis: 170px;
+}
+
+.user-item p {
+    margin: 0;
+}

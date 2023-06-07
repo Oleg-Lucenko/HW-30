@@ -1,0 +1,4 @@
+.album-img {
+    display: flex;
+    flex-wrap: wrap;
+}
