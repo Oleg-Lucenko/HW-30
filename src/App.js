@@ -10,7 +10,7 @@ import AlbumPhoto from './pages/AlbumPhoto';
 
 const router = createBrowserRouter ([
   {
-    path: '/',
+    path: '/HW-30',
     element: <Root />,
     children: [  
       {

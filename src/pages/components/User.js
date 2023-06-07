@@ -33,7 +33,7 @@ function User({user}) {
             <p>BS: {user.company.bs}</p>
           </div>
 
-          <NavLink to={`/user/${user.id}`} className='album-link'>Album</NavLink>
+          <NavLink to={`/HW-30/user/${user.id}`} className='album-link'>Album</NavLink>
 
         </li>
 

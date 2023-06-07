@@ -10,7 +10,7 @@ function Album({album}) {
         <p>User ID: {album.userId}</p>
         <p>Album ID: {album.id}</p>
         <p>Album title: {album.title}</p>
-       <NavLink to={`/album/${album.id}`}>Photo</NavLink>
+       <NavLink to={`/HW-30/album/${album.id}`}>Photo</NavLink>
 
     </li>
 
